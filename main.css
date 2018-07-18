@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	background: #eee;
+	font-family: "bebas neue", helvetica, sans-serif;
+}
+.container {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: #fa8320;
+	border-radius: 100%;
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	color: white;
+	padding-top: 5em;
+}
+
+.container p, .container h1 {
+	margin-bottom: 3em;
+}
